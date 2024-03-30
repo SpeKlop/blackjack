@@ -50,6 +50,7 @@ def display(screen):
                 else:
                     card_img = pygame.image.load('black_jack\cards\card_backward.png')
             card_img = pygame.transform.scale(card_img, (100, 170))
+            print("test git ")
             screen.blit(card_img, (run_settings['screen'][0]/2 - 25 * len(bot_hands) + x, 0 + 30))
             x += 50
 
